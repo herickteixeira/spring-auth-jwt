@@ -1,0 +1,11 @@
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/service/UserServiceImpl.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/repository/RoleRepository.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/security/SecurityConfiguration.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/repository/UserRepository.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/service/UserService.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/api/controller/UserResource.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/filter/CustomAuthorizationFilter.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/domain/User.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/filter/CustomAuthenticationFilter.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/domain/Role.java
+/home/herick/Documents/Projects/authentication/src/main/java/com/auth/authentication/AuthenticationApplication.java

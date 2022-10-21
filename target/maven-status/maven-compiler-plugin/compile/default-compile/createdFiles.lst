@@ -1,0 +1,12 @@
+com/auth/authentication/service/UserServiceImpl.class
+com/auth/authentication/AuthenticationApplication.class
+com/auth/authentication/api/controller/RoleToUserForm.class
+com/auth/authentication/repository/UserRepository.class
+com/auth/authentication/filter/CustomAuthorizationFilter.class
+com/auth/authentication/domain/User.class
+com/auth/authentication/api/controller/UserResource.class
+com/auth/authentication/domain/Role.class
+com/auth/authentication/filter/CustomAuthenticationFilter.class
+com/auth/authentication/security/SecurityConfiguration.class
+com/auth/authentication/service/UserService.class
+com/auth/authentication/repository/RoleRepository.class
