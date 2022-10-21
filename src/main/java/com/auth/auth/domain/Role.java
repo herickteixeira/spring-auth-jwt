@@ -1,4 +1,4 @@
-package com.auth.authentication.domain;
+package com.auth.auth.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

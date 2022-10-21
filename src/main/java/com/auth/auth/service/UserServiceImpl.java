@@ -1,9 +1,9 @@
-package com.auth.authentication.service;
+package com.auth.auth.service;
 
-import com.auth.authentication.domain.Role;
-import com.auth.authentication.domain.User;
-import com.auth.authentication.repository.RoleRepository;
-import com.auth.authentication.repository.UserRepository;
+import com.auth.auth.domain.Role;
+import com.auth.auth.domain.User;
+import com.auth.auth.repository.RoleRepository;
+import com.auth.auth.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;

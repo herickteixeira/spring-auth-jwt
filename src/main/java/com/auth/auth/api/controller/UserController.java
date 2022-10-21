@@ -1,8 +1,8 @@
-package com.auth.authentication.api.controller;
+package com.auth.auth.api.controller;
 
-import com.auth.authentication.domain.Role;
-import com.auth.authentication.domain.User;
-import com.auth.authentication.service.UserService;
+import com.auth.auth.domain.Role;
+import com.auth.auth.domain.User;
+import com.auth.auth.service.UserService;
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.JWTVerifier;
 import com.auth0.jwt.algorithms.Algorithm;

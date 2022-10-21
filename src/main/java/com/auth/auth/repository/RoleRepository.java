@@ -1,6 +1,6 @@
-package com.auth.authentication.repository;
+package com.auth.auth.repository;
 
-import com.auth.authentication.domain.Role;
+import com.auth.auth.domain.Role;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface RoleRepository extends JpaRepository<Role, Long> {

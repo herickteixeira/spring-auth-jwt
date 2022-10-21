@@ -1,7 +1,7 @@
-package com.auth.authentication.service;
+package com.auth.auth.service;
 
-import com.auth.authentication.domain.Role;
-import com.auth.authentication.domain.User;
+import com.auth.auth.domain.Role;
+import com.auth.auth.domain.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 
