@@ -17,6 +17,6 @@ After the .jar is generated run:
 
 This command builds the images and run all required containers.
 
-To stop all containers and remove volumes created by up:
+To stop all containers and remove volumes created:
 
 `$ docker-compose down --volumes`
