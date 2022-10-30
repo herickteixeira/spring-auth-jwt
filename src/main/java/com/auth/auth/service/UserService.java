@@ -13,6 +13,7 @@ public interface UserService {
     User saveUser(User user);
     Role saveRole(Role role);
     void addRoleToUser(String username, String roleName);
+    void deleteUserById(Long id);
     User getUser(String username);
     List<User> getUsers();
 }

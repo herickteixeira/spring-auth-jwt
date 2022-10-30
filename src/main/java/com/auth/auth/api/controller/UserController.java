@@ -55,6 +55,12 @@ public class UserController {
         return ResponseEntity.ok().build();
     }
 
+    @DeleteMapping("/user/delete/{id}")
+    public ResponseEntity<?>deleteUserById(@PathVariable Long id) {
+        userService.deleteUserById(id);
+        return ResponseEntity.ok().build();
+    }
+
     @GetMapping("/token/refresh")
     public void refreshToken(HttpServletRequest request, HttpServletResponse response) throws IOException {
         String authorizationHeader = request.getHeader(AUTHORIZATION);
