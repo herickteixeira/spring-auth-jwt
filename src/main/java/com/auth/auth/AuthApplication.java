@@ -27,22 +27,13 @@ public class AuthApplication {
     @Bean
     CommandLineRunner run(UserService userService) {
         return args -> {
-            userService.saveRole(new Role(null, "ROLE_USER"));
-            userService.saveRole(new Role(null, "ROLE_MANAGER"));
-            userService.saveRole(new Role(null, "ROLE_ADMIN"));
-            userService.saveRole(new Role(null, "ROLE_SUPER_ADMIN"));
+            userService.saveRole(new Role(null, "USER"));
+            userService.saveRole(new Role(null, "ADMIN"));
+            userService.saveRole(new Role(null, "MANAGER"));
 
             userService.saveUser(new User(null, "Herick Teixeira", "herick", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "João Silva", "joao", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "Maria Rodrigues", "maria", "1234", new ArrayList<>()));
-            userService.saveUser(new User(null, "Pedro Cardozo", "pedro", "1234", new ArrayList<>()));
 
-            userService.addRoleToUser("joao", "ROLE_USER");
-            userService.addRoleToUser("maria", "ROLE_MANAGER");
-            userService.addRoleToUser("pedro", "ROLE_ADMIN");
-            userService.addRoleToUser("herick", "ROLE_SUPER_ADMIN");
-            userService.addRoleToUser("herick", "ROLE_ADMIN");
-            userService.addRoleToUser("herick", "ROLE_USER");
+            userService.addRoleToUser("herick", "MANAGER");
         };
     }
 }
