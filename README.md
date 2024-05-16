@@ -8,6 +8,13 @@ Before getting started, make sure you have the following installed in your devel
 * Maven
 * Docker
 
+# Technologies Used
+* Spring Boot: For creating the web application.
+* Spring Security: For managing application security.
+* JWT (JSON Web Tokens): For token-based authentication.
+* Spring Data JPA: For interacting with the database.
+* Docker Compose: For containerized deployment.
+
 # Installation and Execution
 1. Clone the repository:
 ```bash
