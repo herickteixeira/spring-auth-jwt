@@ -18,7 +18,7 @@ Before getting started, make sure you have the following installed in your devel
 # Installation and Execution
 1. Clone the repository:
 ```bash
-git clone https://github.com/seu-usuario/spring-auth-jwt.git
+git clone https://github.com/your-user/spring-auth-jwt.git
 ```
 Or download and extract the project manually.
 
@@ -52,7 +52,7 @@ The application provides the following endpoints:
 
 # Configuration
 The application's settings can be found in the application.properties file. Make sure to configure the properties related to Redis and the database according to your environment.
-```application.yml
+```yml
 spring:
   jpa:
     hibernate:
